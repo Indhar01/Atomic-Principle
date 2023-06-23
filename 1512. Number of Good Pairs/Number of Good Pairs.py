@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Solution(object):
     def numIdenticalPairs(self, nums):
         """
@@ -9,4 +10,17 @@ class Solution(object):
             for j in range(i+1,len(nums)):
                 if nums[i]==nums[j]:
                     pairs+=1
+=======
+class Solution(object):
+    def numIdenticalPairs(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        pairs=0
+        for i in range(0,len(nums)):
+            for j in range(i+1,len(nums)):
+                if nums[i]==nums[j]:
+                    pairs+=1
+>>>>>>> origin/Leetcode-Python
         return pairs

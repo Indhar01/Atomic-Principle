@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Solution(object):
     def convertTemperature(self, celsius):
         """
@@ -6,4 +7,14 @@ class Solution(object):
         """
         return [celsius + 273.15, celsius*1.80 + 32.00]
 
+=======
+class Solution(object):
+    def convertTemperature(self, celsius):
+        """
+        :type celsius: float
+        :rtype: List[float]
+        """
+        return [celsius + 273.15, celsius*1.80 + 32.00]
+
+>>>>>>> origin/Leetcode-Python
         
